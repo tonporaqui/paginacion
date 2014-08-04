@@ -22,7 +22,7 @@ $max_num_paginas = intval($cuenta/$numeroPaginas); //obtenemos las paginas a mos
 
 $consulta=selectAllTabla($tabla,$pagina,$numeroPaginas,$cantidadMostrar,$link); //imprimimos el resultado con la consulta definida en el LIMIT
 while ($row = mysql_fetch_array($consulta)) {
-	$nombre=$row['nombre'];
+	$nombre=$row['nombre_atributo_table'];
 	echo $nombre."<br>"; //podria ser tambien en formato <table>
 }
 
