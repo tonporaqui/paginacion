@@ -1,4 +1,4 @@
-proyectosNew
+Paginacion
 ============
 
-prueba
+Es una simple paginacion.
