@@ -7,7 +7,7 @@
 */
 function conect(){
 //datos de conexion
-	$res=conex('localhost','root','','bd_ploterchile');
+	$res=conex('localhost','root','','nameBd');//acomodar segun tus datos de base de dato
 
 return $res;
 }

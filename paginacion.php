@@ -2,7 +2,7 @@
 include("funciones.php");// incluimos archivo funciones.php
 
 $link=conect(); // nos conectamos a BD
-$tabla='usuario'; //el nombre de la tabla donde recueraras info.
+$tabla='nombre_tabla'; //el nombre de la tabla donde necesitaras la info.
 $pagina=1; //la pagina comienza en 1
 $numeroPaginas=9; //cantidad de paginas 10-1 para mostrar 10 en el li
 $cantidadMostrar=5; //cantidad de datos por pagina a mostrar
