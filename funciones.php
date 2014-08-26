@@ -7,7 +7,7 @@
 */
 function conect(){
 //datos de conexion
-	$res=conex('mysql_host','mysql_user','mysql_password','mysql_nameBD');//acomodar segun tus datos de base de dato
+	$res=conex('mysql_host','mysql_user','mysql_password','mysql_nameBD2');//acomodar segun tus datos de base de dato
 
 return $res;
 }
