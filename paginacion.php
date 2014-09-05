@@ -1,6 +1,8 @@
 <?php
 include("funciones.php");// incluimos archivo funciones.php
 
+/*este es un cambio para commit*/
+
 $link=conect(); // nos conectamos a BD
 $tabla='nombre_tabla'; //el nombre de la tabla donde necesitaras la info.
 $pagina=1; //la pagina comienza en 1
